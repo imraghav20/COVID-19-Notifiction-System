@@ -30,7 +30,7 @@ if __name__ == "__main__":
         myDataStr = myDataStr[1:]
         itemList = myDataStr.split('\n\n')
 
-        states = ['Uttar Pradesh', 'Maharashtra', 'Telangana', 'Gujarat', 'Delhi']
+        states = ['Uttar Pradesh', 'Maharashtra', 'Telengana', 'Gujarat', 'Delhi']
         for item in itemList[:22]:
             dataList = item.split('\n')
             if dataList[1] in states:
